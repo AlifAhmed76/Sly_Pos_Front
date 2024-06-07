@@ -1,0 +1,23 @@
+
+@import "variables";
+@import "mixin";
+@import "global";
+
+#login{
+    width:100vh;
+    height: 100vh;
+    position: relative;
+    .card{
+        label{
+            position: relative;
+        }
+       box-shadow: 0 0 25px white;
+        width: 40%;
+       @include center
+       
+    }
+    .login-error-msg {
+        position: absolute;
+        color:red;
+    }
+}
